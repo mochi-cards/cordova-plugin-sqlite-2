@@ -22,7 +22,7 @@
       "ios"
     ]
   },
-  "repository": "https://github.com/mochi-cards/cordova-plugin-sqlite-2.git",
+  "repository": "https://github.com/nolanlawson/cordova-plugin-sqlite-2.git",
   "keywords": [
     "cordova",
     "sqlite",
@@ -36,9 +36,9 @@
   "author": "Nolan Lawson <nolan@nolanlawson.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/mochi-cards/cordova-plugin-sqlite-2/issues"
+    "url": "https://github.com/nolanlawson/cordova-plugin-sqlite-2/issues"
   },
-  "homepage": "https://github.com/mochi-cards/cordova-plugin-sqlite-2#readme",
+  "homepage": "https://github.com/nolanlawson/cordova-plugin-sqlite-2#readme",
   "devDependencies": {
     "appium": "1.10.1",
     "bluebird": "3.3.4",
