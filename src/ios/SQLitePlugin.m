@@ -31,7 +31,7 @@
                                                     error: nil];
     // make it non-syncable to iCloud
     NSURL *url = [ NSURL fileURLWithPath: dbDir];
-    [url setResourceValue: [NSNumber numberWithBool: YES]
+    [url setResourceValue: [NSNumber numberWithBool: NO]
                    forKey: NSURLIsExcludedFromBackupKey
                     error: nil];
 }
