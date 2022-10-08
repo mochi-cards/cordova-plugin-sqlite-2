@@ -1,4 +1,4 @@
-export function map(arr, fun) {
+exports.map = function (arr, fun) {
   var len = arr.length;
   var res = Array(len);
   for (var i = 0; i < len; i++) {
@@ -7,7 +7,7 @@ export function map(arr, fun) {
   return res;
 }
 
-export function zipObject(props, values) {
+exports.zipObject = function (props, values) {
   var res = {};
   var len = Math.min(props.length, values.length);
   for (var i = 0; i < len; i++) {

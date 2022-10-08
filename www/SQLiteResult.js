@@ -5,4 +5,4 @@ function SQLiteResult(error, insertId, rowsAffected, rows) {
   this.rows = rows;
 }
 
-export default SQLiteResult;
+module.exports = SQLiteResult;

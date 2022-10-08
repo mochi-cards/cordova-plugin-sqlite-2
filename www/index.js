@@ -1,5 +1,5 @@
-import customOpenDatabase from 'websql/custom';
-import SQLiteDatabase from './SQLiteDatabase';
+const customOpenDatabase = require('websql/custom');
+const SQLiteDatabase = require'./SQLiteDatabase');
 
 var openDB = customOpenDatabase(SQLiteDatabase);
 

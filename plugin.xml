@@ -6,9 +6,12 @@
     <license>Apache 2.0</license>
     <keywords>cordova,sqlite,websql</keywords>
 
-    <js-module src="dist/sqlite-plugin.js" name="sqlitePlugin">
+    <js-module src="www/index.js" name="sqlitePlugin">
         <clobbers target="sqlitePlugin"/>
     </js-module>
+    <js-module src="www/SQLiteDatabase.js" name="SQLiteDatabase"></js-module>
+    <js-module src="www/SQLiteResult.js" name="SQLiteResult"></js-module>
+    <js-module src="www/utils.js" name="utils"></js-module>
 
     <platform name="android">
         <config-file target="config.xml" parent="/*">

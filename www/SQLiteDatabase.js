@@ -1,5 +1,5 @@
-import { map, zipObject } from './utils';
-import SQLiteResult from './SQLiteResult';
+const { map, zipObject } = require('./utils');
+const SQLiteResult = require('./SQLiteResult');
 
 function massageError(err) {
   return typeof err === 'string' ? new Error(err) : err;
@@ -59,4 +59,4 @@ SQLiteDatabase.prototype.exec = function exec(queries, readOnly, callback) {
 };
 
 
-export default SQLiteDatabase;
+module.exports = SQLiteDatabase;
